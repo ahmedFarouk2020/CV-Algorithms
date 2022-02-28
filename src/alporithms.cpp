@@ -1,6 +1,6 @@
     /* Include the header file that contains the declaration of the class */
 
-#include "../includes/algorithms.hpp"
+#include "../includes/main.hpp"
 
 
     /* The below code is the implementations of the class methods */
@@ -27,5 +27,5 @@ int algorithms::sum_of_numbers_list(std::vector<int> numbers)
         /* the implementation of the public method */
 int algorithms::mean(std::vector<int> numbers)
 {
-    return this->sum_of_numbers_list(numbers)/numbers.size();
+    return (int)this->sum_of_numbers_list(numbers)/numbers.size();
 }

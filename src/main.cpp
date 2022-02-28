@@ -1,11 +1,10 @@
-#include <../includes/algorithms.hpp>
+#include <../includes/main.hpp>
 /******************************************************/
 /*  THIS IS A TEMP PROGRAM TO USE IN THE CV PROJECTS  */
 /******************************************************/
 
 
-#include <vector>
-#include <iostream>
+
 
 
 int main()
